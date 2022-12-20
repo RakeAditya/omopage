@@ -719,3 +719,48 @@ footer .last p {
 		margin: 2px 2px;
 	}
 }
+/* hidden content */
+.age {
+	max-width: 90vw;
+	/* margin: 0 auto; */
+	text-align: center;
+	color: #ffff;
+}
+
+.age1 {
+	width: 20vw;
+	text-align: center;
+	background-color: #f26e23;
+	position: relative;
+	left: 9rem;
+}
+
+.age2 {
+	width: 20vw;
+	margin: 0 5vw;
+	padding: 0 5vw;
+	text-align: center;
+	background-color: #923686;
+}
+
+.age3 {
+	position: relative;
+	right: 4rem;
+	width: 20vw;
+	text-align: center;
+	background-color: #005fa2;
+}
+
+#leftslide {
+	position: relative;
+	left: 10.4rem;
+	z-index: 10000000;
+	cursor: pointer;
+}
+
+#rightslide {
+	position: relative;
+	right: 5.5rem;
+	z-index: 10000000;
+	cursor: pointer;
+}
