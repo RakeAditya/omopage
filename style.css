@@ -36,11 +36,18 @@ body {
 }
 .logoimg {
 	width: 200px;
-	height: 120px;
+	height: 140px;
+	margin-top: 2vh;
 }
-@media only screen and (max-height: 730px) {
+@media only screen and (max-height: 740px) {
 	.front {
 		min-height: 105vh;
+	}
+}
+
+@media only screen and (max-height: 800px) {
+	.front {
+		min-height: 102vh;
 	}
 }
 .navbar-light .navbar-nav .nav-link .ocolor {
@@ -527,7 +534,7 @@ body {
 	/* margin: 0 15vw 10vw 15vw; */
 	display: flex;
 	justify-content: center;
-	margin-bottom: 50vw;
+	margin-bottom: 40em;
 }
 .extra .l-extra {
 	height: 100px;
@@ -614,6 +621,11 @@ body {
 	}
 	.story {
 		margin-bottom: -20vh;
+	}
+}
+@media only screen and (min-height: 600px) {
+	.extra {
+		margin-bottom: 50em;
 	}
 }
 .ano {
