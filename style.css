@@ -45,7 +45,12 @@ body {
 	}
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 700px) {
+	.front {
+		min-height: 110vh;
+	}
+}
+@media only screen and (max-height: 850px) {
 	.front {
 		min-height: 102vh;
 	}
@@ -637,9 +642,15 @@ body {
 	color: #fff;
 	margin-bottom: 10vh;
 }
-@media only screen and (max-height: 807px) {
+@media only screen and (max-height: 850px) {
 	.ano {
 		margin-top: 30vh;
+	}
+}
+
+@media only screen and (max-height: 785px) {
+	.ano {
+		margin-top: 35vh;
 	}
 }
 @media only screen and (max-height: 730px) {
