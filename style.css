@@ -11,12 +11,13 @@ body {
 	/* justify-content: center; */
 }
 .front {
-	max-width: 100%;
+	max-width: 100vw;
 	min-height: 90vh;
 	background-color: blue;
 	background: url('./images/header.png');
 	background-repeat: no-repeat;
 	background-position: 30vw;
+	background-size: cover;
 	/* background-position: 100px; */
 }
 .navbar {
@@ -36,6 +37,11 @@ body {
 .logoimg {
 	width: 200px;
 	height: 120px;
+}
+@media only screen and (max-height: 730px) {
+	.front {
+		min-height: 105vh;
+	}
 }
 .navbar-light .navbar-nav .nav-link .ocolor {
 	color: blue;
@@ -622,6 +628,16 @@ body {
 @media only screen and (max-height: 807px) {
 	.ano {
 		margin-top: 30vh;
+	}
+}
+@media only screen and (max-height: 730px) {
+	.ano {
+		margin-top: 45vh;
+	}
+}
+@media only screen and (max-height: 647px) {
+	.ano {
+		margin-top: 55vh;
 	}
 }
 .alum h1 {
