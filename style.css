@@ -493,7 +493,14 @@ body {
 .card .btn-read {
 	color: #2e669e;
 	text-decoration: none;
-	margin-left: 60%;
+	/* margin-left: 60%; */
+}
+.card hr {
+	vertical-align: middle;
+	display: inline-block;
+	width: 70%;
+	border: 1px solid #2e669e;
+	margin-right: 1vw;
 }
 @media only screen and (max-width: 1200px) {
 	.news-card {
@@ -604,7 +611,7 @@ body {
 	}
 }
 .ano {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	margin-top: 15vh;
 	text-align: center;
 	background-color: #ff751a;
@@ -612,11 +619,16 @@ body {
 	color: #fff;
 	margin-bottom: 10vh;
 }
+@media only screen and (max-height: 807px) {
+	.ano {
+		margin-top: 30vh;
+	}
+}
 .alum h1 {
 	color: #fff;
 }
 .alum {
-	margin-top: 0;
+	margin-top: -10vh;
 	text-transform: uppercase;
 	background-color: #2e669e;
 	padding: 5vh 0;
