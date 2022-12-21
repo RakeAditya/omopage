@@ -647,7 +647,11 @@ body {
 		margin-top: 30vh;
 	}
 }
-
+@media only screen and (max-height: 845px) {
+	.ano {
+		margin-top: 35vh;
+	}
+}
 @media only screen and (max-height: 785px) {
 	.ano {
 		margin-top: 35vh;
