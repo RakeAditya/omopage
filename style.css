@@ -29,6 +29,10 @@ body {
 	font-size: 1.1em !important;
 	font-weight: 600;
 }
+.nav-link:hover {
+	border-bottom: 2px solid #d8621f;
+	transition: 1s ease-in-out;
+}
 
 .nav-item {
 	/* text-transform: uppercase; */
@@ -513,112 +517,6 @@ body {
 	background-color: #005fa3;
 	margin: 0;
 	padding: 2em 0;
-}
-
-/* cpoy paste css */
-.section7 {
-	max-width: 90vw;
-	height: 1000px;
-}
-
-.section7 span {
-	position: relative;
-	left: 35rem;
-	top: 0;
-}
-
-.section7 span h3 {
-	display: inline-block;
-	color: #1e376d;
-	font-weight: bold;
-}
-
-.section hr {
-	width: 20vw;
-	font-weight: lighter;
-	height: 2px;
-	background-color: #000;
-}
-
-.section7 .card {
-	box-shadow: 0.5px 2px 4px 2px #808080;
-	width: 60%;
-	margin: auto;
-}
-
-.section7 .card .row {
-	position: relative;
-	right: 4rem;
-}
-
-.section7 .card .row .left {
-	position: relative;
-	left: 6rem;
-}
-
-.section7 .card .row .left form {
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-	width: 35%;
-	height: 50vh;
-}
-
-.section7 .card .row .left form label {
-	cursor: pointer;
-}
-
-.section7 .card .row .left form label i {
-	cursor: pointer;
-	position: absolute;
-	left: 19rem;
-}
-
-.section7 .card .row .left form {
-	cursor: pointer;
-}
-
-.section7 .map-bottom {
-	margin-top: 4rem;
-	text-align: center;
-}
-
-.section7 .map-bottom h3 {
-	color: #f26e23;
-	font-weight: bold;
-}
-
-.section7 .map-bottom .ACCREDITARIONS {
-	background-color: #f6f6f8;
-	height: 20vh;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	line-height: 0px;
-}
-
-.section7 .map-bottom .ACCREDITARIONS img {
-	width: 160px;
-	height: 10vh;
-	margin: 0 1rem;
-}
-.section7 .right .framess {
-	width: 30vw;
-	height: 70vh;
-}
-@media only screen and (max-width: 1250px) {
-	.section7 .right .framess {
-		width: 30vw;
-		height: 70vh;
-	}
-}
-/* section 6th end */
-
-/* section 7 start */
-
-.section7 {
-	width: 100%;
-	height: auto;
 }
 
 footer {
