@@ -764,3 +764,28 @@ footer .last p {
 	/* height: 300px; */
 	/* width: 300px; */
 }
+/* ----------------------alumi section -------------------------- */
+.alumi {
+	margin: 5em auto;
+}
+.alu-img {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ali-item {
+	height: 200px;
+	width: 200px;
+	/* border: 2px solid red; */
+	margin: 0 10px;
+}
+.alu-img .itm1,
+.alu-img .itm4 {
+	height: 300px;
+	width: 200px;
+}
+.alu-img .itm2,
+.alu-img .itm3 {
+	height: 200px;
+}
