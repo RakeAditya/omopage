@@ -528,6 +528,18 @@ body {
 	color: #fff;
 	/* margin-bottom: 10vh; */
 }
+.ano h2 {
+	max-width: 90vw;
+	margin: 0 auto;
+}
+.ano h1 {
+	max-width: 90vw;
+	margin: 0 auto 0.5em;
+	font-size: 3em;
+}
+.ano h1 sup {
+	font-size: 0.8em;
+}
 .ano .ano-img {
 	/* border: 2px solid red; */
 	margin-top: 2em auto;
@@ -768,18 +780,21 @@ footer .last p {
 
 /* ----------------------accradation items ---------- */
 .fin-acc {
+	max-width: 90vw;
 	margin: 2em auto;
 }
 .fin-acc h3 {
 	color: #f38242;
 }
 .acc {
+	max-width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 }
-.acc-itm {
-	margin: 0 2em;
+.acc-item {
+	/* border: 2px solid blue; */
+	margin: 0 0.8em;
 	/* height: 300px; */
 	/* width: 300px; */
 }
