@@ -789,3 +789,8 @@ footer .last p {
 .alu-img .itm3 {
 	height: 200px;
 }
+.cen-img {
+	width: 500px;
+	height: 120px;
+	margin: 2em auto 1em;
+}
