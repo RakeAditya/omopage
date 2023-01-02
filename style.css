@@ -18,11 +18,11 @@ body {
 }
 .front {
 	max-width: 100vw;
-	min-height: 750px;
+	min-height: 650px;
 	background-color: blue;
-	background: url('./images/hd\ 01-01.jpg');
+	background: url('./images/header.png');
 	background-repeat: no-repeat;
-	background-position: 9vw;
+	background-position: 20vw;
 	background-size: cover;
 	/* background-position: 100px; */
 }
