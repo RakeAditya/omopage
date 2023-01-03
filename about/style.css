@@ -120,8 +120,11 @@ nav .nav-links .nav-li a {
 	letter-spacing: 0.5px;
 	word-spacing: 2px;
 	font-weight: 500;
-	margin-bottom: 1.5em;
-	text-decoration: underline;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-image: linear-gradient(to right, var(--fc-purp) 10%, #fff 10%) 1;
 }
 .part2 p {
 	font-size: var(--fs-para2);
@@ -218,6 +221,13 @@ nav .nav-links .nav-li a {
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(107, 99, 99, 0.5);
 }
+/* media querey for 1200px */
+@media only screen and (max-width: 1200px) {
+	.moto .moto-cards .card {
+		height: 420px;
+		width: 280px;
+	}
+}
 .card .card-head {
 	margin: 1rem;
 	display: flex;
@@ -276,6 +286,12 @@ nav .nav-links .nav-li a {
 	margin: 0 10px;
 	background-color: #ffffe6;
 	box-shadow: 0 0 10px #000;
+}
+@media only screen and (max-width: 1200px) {
+	.gal-card {
+		width: 280px;
+		height: 370px;
+	}
 }
 .gal-card .gal-img {
 	height: 60%;
@@ -343,6 +359,7 @@ footer .foot-cont {
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 }
 .left-foot h1 {
 	font-size: 1.5rem;
@@ -354,7 +371,20 @@ footer .foot-cont {
 .foot-rit h2 {
 	font-size: 1.5rem;
 }
-
+.foot-links {
+	display: flex;
+	justify-content: flex-start;
+}
+.foot-link {
+	margin: 0 5px;
+}
+.foot-link:nth-child(1) {
+	margin: 0;
+}
+.foot-link svg {
+	width: 20px;
+	height: 20px;
+}
 /* foot late */
 .foot-late {
 	background-color: var(--fc-dark);
